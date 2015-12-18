@@ -19,7 +19,10 @@ Get the Trend dependencies:
 That script git_em.sh is shorthand for:
 
     $ git clone https://github.com/trendct/TrendDataMapper.git TrendDataMapper/
-    $ git clone https://github.com/trendct/Trendy.js.git Trendy
+    $ git clone https://github.com/trendct/Trendy.js.git Trendy/
+
+#####Tinkering
+We're not near the point of documenting this project, but the project-specific files are index.html and everything in the resources directory.
 
 #####Directory structure
     .
