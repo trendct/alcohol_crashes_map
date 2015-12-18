@@ -7,9 +7,12 @@ This was removed from the TrendDataMapper repo so that this repository could be 
 
 #####Quick start
 
-Create a MapProjectTemplate
+Create a MapProjectTemplate:
+
     $ git clone https://github.com/trendct/MapProjectTemplate.git DESTINATION
-Get the Trend dependencies
+
+Get the Trend dependencies:
+
     $ cd DESTINATION/vendor
     $ git clone https://github.com/trendct/TrendDataMapper.git TrendDataMapper/
     $ git clone https://github.com/trendct/Trendy.js.git Trendy
