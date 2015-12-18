@@ -14,6 +14,10 @@ Create a MapProjectTemplate:
 Get the Trend dependencies:
 
     $ cd DESTINATION/vendor
+    $ bash git_em.sh
+
+That script git_em.sh is shorthand for:
+
     $ git clone https://github.com/trendct/TrendDataMapper.git TrendDataMapper/
     $ git clone https://github.com/trendct/Trendy.js.git Trendy
 
