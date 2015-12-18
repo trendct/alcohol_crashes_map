@@ -8,12 +8,15 @@ This was removed from the TrendDataMapper repo so that this repository could be 
 #####Quick start
 
 Create a MapProjectTemplate
+<code>
     $ git clone https://github.com/trendct/MapProjectTemplate.git DESTINATION
-
+</code>
 Get the Trend dependencies
+<code>
     $ cd DESTINATION/vendor
     $ git clone https://github.com/trendct/TrendDataMapper.git TrendDataMapper/
     $ git clone https://github.com/trendct/Trendy.js.git Trendy
+</code>
 
 #####Directory structure
 <pre>
