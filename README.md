@@ -18,26 +18,24 @@ Get the Trend dependencies:
     $ git clone https://github.com/trendct/Trendy.js.git Trendy
 
 #####Directory structure
-<pre>
-.
-├── README.md
-├── index.html
-├── resources
-│   ├── data
-│   │   └── sample_project_data.js
-│   └── main.js
-└── vendor
-    ├── TrendDataMapper
-    │   ├── README.md
-    │   ├── css
-    │   │   └── TrendDataMapper.css
-    │   └── js
-    │       ├── TrendDataMapper.js
-    │       └── ct_towns.topojson.js
-    ├── Trendy
-    │   ├── README.md
-    │   └── Trendy.js
-    ├── d3.min.js
-    ├── datamaps.usa.min.js
-    └── topojson.min.js
-</pre>
+    .
+    ├── README.md
+    ├── index.html
+    ├── resources
+    │   ├── data
+    │   │   └── sample_project_data.js
+    │   └── main.js
+    └── vendor
+        ├── TrendDataMapper
+        │   ├── README.md
+        │   ├── css
+        │   │   └── TrendDataMapper.css
+        │   └── js
+        │       ├── TrendDataMapper.js
+        │       └── ct_towns.topojson.js
+        ├── Trendy
+        │   ├── README.md
+        │   └── Trendy.js
+        ├── d3.min.js
+        ├── datamaps.usa.min.js
+        └── topojson.min.js
