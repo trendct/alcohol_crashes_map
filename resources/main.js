@@ -7,19 +7,23 @@ if (typeof(road_condition_map_usDEC2015) == "undefined") var road_condition_map_
 road_condition_map_usDEC2015 = {
     div_id: "road_condition_us_map_2015",
     toggle_div_id: "road_condition_us_map_2015_toggle_container",
-    data: road_condition_percents_12082015,
+    data: alcohol_crashes_122015,
     default_excludes: ["state"],
     // use small multiples instead of default tabs
     //small_multiples: true,
     //popup: false,
     // toggle or small maps to make
     categories: [
-        "very good",
-        "good",
-        "fair",
-        "mediocre",
-        "poor"],
-    default_category: "very good",
+        "2006",
+        "2007",
+        "2008",
+        "2009",
+        "2010",
+        "2011",
+        "2012",
+        "2013"
+        ],
+    default_category: "2013",
     // dotted lines
     dash_array: "3, 3",
     color_range: {
